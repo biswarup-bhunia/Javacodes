@@ -1,0 +1,36 @@
+1. How many types of relationships exist among tables in the
+Database?
+=================================================================
+ans- AT table level there are 3 types of  relationship those are -
+A.OTO- One-to-one relationship
+B.OTM - One-to-many relationship
+C.MTM - Many-to-many relationship
+
+===================================================================
+2. Explain with some examples, and also mention how to
+  establish these relationships among tables with examples.
+===================================================================
+
+ans-
+     1. OTO-
+     if only one data in one table relates to the only one data in another table it is known as  one to one relationship.
+     some examples of :- person to DL, person to aadhar-card ,etc
+
+     2. OTM -
+     if only one data in table relates to the multiply data in another table its is known as one-to-many relationship.
+     some examples of- teacher to student , department to employee, etc
+
+     3. MTM -
+     if multiply data in one table relates to the  multiply data in another table  it is know as  Many-to-many relationship
+     Here whenever we want a Many-to-many relationship we need to take a help of another table which is linking to both of the table ex-->
+
+     student    to         course
+        |                      |
+        |                      |
+        ------------------------
+                 |
+                 |
+         student_course details
+
+
+     some examples of- student to  course,  book to author , etc

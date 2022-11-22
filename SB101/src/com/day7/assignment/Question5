@@ -1,0 +1,11 @@
+What is the difference between the sleep and wait method?
+
+Wait() method releases lock during Synchronization.
+
+Sleep() method does not release the lock on object
+during Synchronization.
+
+Wait() should be called only
+from Synchronized context.
+
+There is no need to call sleep() from Synchronized context.

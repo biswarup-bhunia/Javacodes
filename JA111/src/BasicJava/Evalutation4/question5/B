@@ -1,0 +1,7 @@
+When should you use a Set over a List?
+
+For List If we want ordered,duplicate collection of elements
+ then it would be prefer most.
+
+For Set If we want to sorted,non duplicate collectoin
+of elements at that time it prefer most.

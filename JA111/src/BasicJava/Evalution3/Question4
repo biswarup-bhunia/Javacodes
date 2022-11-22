@@ -1,0 +1,10 @@
+What are the benefits of using an abstract method?
+
+Ans -
+    1. In java abstraction is basically using for hiding the unnecessary
+    data from the user and try to focus on functionality.
+    2. It increase the efficiency of the program.
+    3. It reduces  the complexity of the program.
+    4. In abstract method it also using the same way. When ever
+    we just need the method new just declared in a super class.
+    5.In abstract method it have flexibilty also.

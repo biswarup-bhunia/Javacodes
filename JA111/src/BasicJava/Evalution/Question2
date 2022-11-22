@@ -1,0 +1,11 @@
+Differentiate between JRE, JVM and JDK.
+ans -
+        Basically for devolving, running, Debugging a java program we need JDK. Means Java Developer kit.
+        It need to be install on our system. Write now the version or JDK is 17 and 18(Beta Development).
+
+        JDK has to part one is JRE means Java Runtime Environment and JVM means java visual Machine.
+
+        So the basic differance between JDK, JRE and JVM is JDK is use to code executing java code. And its has
+        some functionality of development the java source code.
+        JRE is create the Environment for code execution.
+        JVM is provide the implementation of JRE.

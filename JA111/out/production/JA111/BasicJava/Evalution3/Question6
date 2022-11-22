@@ -1,0 +1,10 @@
+What is object upcasting?
+Ans:
+    In java upcasting is basically a type of object typecasting
+    where child class object is typecast to parent class object.
+    By using the upcasting we can easily access the variable
+    and the methods of parent class to the child class.
+
+    Method name need to be same.
+
+ example :- Upcasting.java

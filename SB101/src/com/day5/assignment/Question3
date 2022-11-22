@@ -1,0 +1,51 @@
+What are the benefits of using Multithreading?
+
+Responsiveness –
+Multithreading in an interactive application may allow a 
+program to continue running even if a part of it is blocked or
+ is performing a lengthy operation, thereby increasing 
+ responsiveness to the user.
+In a non multi threaded environment, a server listens to the
+ port for some request and when the request comes, it 
+ processes the request and then resume listening to 
+ another request. The time taken while processing of 
+ request makes other users wait unnecessarily. Instead
+  a better approach would be to pass the request to a 
+  worker thread and continue listening to port.
+
+For example, a multi threaded web browser allow user
+ interaction in one thread while an video is being loaded 
+ in another thread. So instead of waiting for the whole web-page
+  to load the user can continue viewing some portion of the 
+  web-page.
+
+Resource Sharing –
+Processes may share resources only through techniques such as-
+Message Passing
+Shared Memory
+Such techniques must be explicitly organized by programmer. 
+However, threads share the memory and the resources of the 
+process to which they belong by default.
+The benefit of sharing code and data is that it allows an 
+application to have several threads of activity within same 
+address space.
+
+Economy –
+Allocating memory and resources for process creation is a 
+costly job in terms of time and space.
+Since, threads share memory with the process it belongs, it 
+is more economical to create and context switch threads. 
+Generally much more time is consumed in creating and managing 
+processes than in threads.
+In Solaris, for example, creating process is 30 times slower 
+than creating threads and context switching is 5 times slower.
+Scalability –
+The benefits of multi-programming greatly increase in case 
+of multiprocessor architecture, where threads may be running 
+parallel on multiple processors. If there is only one thread 
+then it is not possible to divide the processes into smaller 
+tasks that different processors can perform.
+Single threaded process can run only on one processor 
+regardless of how many processors are available.
+Multi-threading on a multiple CPU machine increases 
+parallelism.

@@ -1,0 +1,10 @@
+Explain the concept of static in Java.
+Ans-
+    In java programming language the keyword static is used to create a Class level variable.
+    It belongs to the class.We can access it by using class name. It is run at the same when
+    the class is load. And it share all  the same copy. Means memory
+    allocation happens only a single time.
+
+    For example if I create a masai student management application then
+    all the company name will be static and for student in same batch the
+    batch name will be static.

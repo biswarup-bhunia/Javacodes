@@ -1,0 +1,9 @@
+Explain the difference between Checked and Unchecked
+exception?
+
+A checked exception must be handled either by
+re-throwing or with a try catch block, a runtime
+isn't required to be handled. An unchecked exception
+is a programming error and are fatal, whereas a
+checked exception is an exception condition within
+your codes logic and can be recovered or retried from.

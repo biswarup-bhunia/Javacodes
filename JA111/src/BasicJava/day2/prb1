@@ -1,0 +1,8 @@
+So in java the basic difference between static variable and not static variable is
+
+Static variable are refer to the class where non static variable are not.
+static variable are access by class name where of accessing the non static variable we have to use
+object.
+static variable are load on the time of class load where non static variable are not.
+
+Static variable are like class variable but nonstatic are like local variable by using object.

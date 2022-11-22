@@ -1,0 +1,8 @@
+What is a Race condition, How will you solve the Race condition,explain with an
+Example.
+
+In layman terms, a race condition can be defined as, 
+a condition in which two or more threads compete together 
+to get certain shared resources. For example, if thread A 
+is reading data from the linked list and 
+another thread B is trying to delete the same data.

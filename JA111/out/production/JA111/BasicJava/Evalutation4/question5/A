@@ -1,0 +1,22 @@
+When should you use LinkedList over ArrayList?
+
+LinkedLists are better when we need to manipulating the list
+(adding & deleting) and ArrayLists are better when  we try to do
+just accessing the list after creating it.
+LinkedLists might be better if we adding a lot
+of element one at a time.
+
+LinkedList is faster when we insert or
+delete an element from somewhere other than the end.
+
+ArrayList has to literally copy its internal array up
+to the point of insertion/deletion, add or remove the
+element, copy the rest of the internal array and
+then make the array copy the internal array.
+This uses more CPU and adds more garbage collection
+when the old internal array is GCed.
+
+ArrayList is faster at getting an element at some
+index because internally it's just an array,
+so when we need call get(i) it simply returns the
+element at that : array[i].

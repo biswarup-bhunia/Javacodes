@@ -1,0 +1,27 @@
+Write down some predefined Functional interfaces in the java library at least 4
+interfaces, with their methods.
+
+Ans - the predefine function Interfaces are
+
+1.Predicate(I)
+
+It have only one method that is
+
+public boolean test(T t);
+
+use for Collection.removeIf(s -> s.getMarks > 100 && s.getMarks < 400);
+
+2.Consumer(I)
+
+public abstract void accept(T t);
+
+use for forEach 
+
+forEach(s -> System.out::println);
+
+3.Supplier(I)
+public abstract T get();
+
+4.Function(I)
+
+public R apply(T t);

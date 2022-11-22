@@ -1,0 +1,11 @@
+ What is the difference between a synchronized method and a synchronized block?
+
+
+A synchronized method assigns an object-level or 
+class-level corresponding lock. And synchronized block
+ assign a lock to the object based on the parameter.
+ 
+A synchronized block on the entire functionality 
+of the method concerned. And a synchronized block is 
+used to acquire the lock on a small number of the 
+consecutive statement. (i.e Critical section area)

@@ -1,0 +1,18 @@
+Explain the four pillars of object-oriented programming.
+
+ans-
+    So basically java is object oriented programming language which have
+    four pillars . Those are
+    1.Encapsulation
+    2.Abstraction
+    3.polymorphism
+    4.Inheritance
+
+    1.Encapsulation - It is basically a class which have variable and
+    method into it.
+    2.Abstraction - It is a process of hiding the implement detailes like method and all and
+    showing only functionality to user. Like a car. User can show the outer part but engine and all are
+    hide.
+    3.Inheritance - This is basically a method which takes something like variable, method from a other class.
+    Simply means inherit something from parent.
+    4.Polymorphism - Its basically the multiple forms of a class.

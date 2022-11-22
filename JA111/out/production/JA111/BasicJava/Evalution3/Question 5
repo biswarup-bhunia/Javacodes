@@ -1,0 +1,5 @@
+What is object downcasting?
+Ans :
+    In java downcasting is basically the reference of the
+    parent class object is passed to the child class.But Implicit
+    downcasting is not possiable.

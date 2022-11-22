@@ -1,0 +1,6 @@
+Explain the meaning of the deadlock in multithreaded application, when it can occur in
+multithreading applications.Write one example of deadlock.
+
+Ans- Deadlock in java its is condition where  two or more than two  thread are blocked and  waiting for
+each other to forever because of the synchorized keyword.
+Deadlock have not any solution but they have several prevention.

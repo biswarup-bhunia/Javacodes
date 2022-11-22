@@ -1,0 +1,33 @@
+What is the Difference between Comparable and Comparator? Explain with examples.
+
+We know that both are Interface only. both need to be override. And both use for sort.
+But the main difference that if we need to do multiple compare in a collection then we use comparator implemented class
+but in comparable we can compare a single statement only.
+
+
+for exam
+
+public class Student implements Comparable{
+
+this is bean class
+through this we can compare only the one method implementation.
+
+Like if me need sort both student and marks then we can compare through it.
+
+
+} 
+
+
+
+
+
+public class StudentSortName implements COmparator{
+
+this is the implementation class of the comparator Interface.
+through here if we override 
+
+void compareTo(){
+}
+ method then we can sort multiple things.
+
+}

@@ -1,0 +1,19 @@
+What is the difference between final and finally. Write the code for
+the same
+
+
+Ans :-
+1. When we need to restricate our variable, method or class at that time we
+use final
+but finally is a block when we handling exception through try catch
+we use it. It print will always print if my code run through try or catch.
+
+2.Final keyword is used upon the class,method and variables.
+where as finally always used to catch exception handling.
+
+3. Final method is executed only when we call it. where as
+finally block is executed as soon as the try/catch block is executed.
+
+public class FinalExa {
+
+}

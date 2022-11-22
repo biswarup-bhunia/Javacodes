@@ -1,0 +1,16 @@
+What is the difference between throw and throws. Write the code
+for the same.
+
+Ans-
+1.Throw is use on the method whereas
+throws is use on the method signature.
+2.Throw keyword is use to throw an exception
+ explicitly in the code, inside the function or block of
+ code.
+ where as throws keyword is use to in the method
+ signature to declare an exception which might be thrown by
+ the function while the execution of the code.
+
+ 3.The throw keyword is followed by an instance of Exception.
+ whereas he throws keyword is followed by class names of
+ Exceptions.

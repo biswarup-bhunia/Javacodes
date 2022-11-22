@@ -1,0 +1,9 @@
+Is there any difference between creating a string with and without a new operator?
+        Explain with an example.
+
+Ans- Yes of course there are a difference
+        So when ever a new keyword get on java it will create a space called heap area on our ram
+        and store the variable and there value there.
+        But when we create a string using String class it store in string pool.
+
+        So the address of same string same value are different.

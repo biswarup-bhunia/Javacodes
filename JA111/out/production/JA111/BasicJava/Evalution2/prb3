@@ -1,0 +1,8 @@
+Explain has-A relationship with a code example.
+
+Java is an object-oriented programming language that supports
+inheritance.Has-A relationship in Java is known to be as Composition.
+It is used to reuse the code. Basically, it means that an instance
+of the one class has a reference to the instance of another class or
+the other instance of the same class.
+This relationship helps to minimize the duplication of code.

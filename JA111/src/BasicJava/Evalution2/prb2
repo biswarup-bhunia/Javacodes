@@ -1,0 +1,14 @@
+Part 1.
+        String immutable means that once the object has been assigned to a variable
+        ,we can't update the reference and also can't mutate the internal state.
+
+Part 2.
+        Advantages of immutable strings
+            1. It automatically makes the String thread safe since
+            they won't be changed when accessed from multiple threads.
+            2. It's doing a very good memory management.
+            3. It is easier to design, implement.
+            Disadvantages of immutable strings
+            1.It require a separate object for each distinct value
+            which results in creation too many new objects and performing
+            deep copies.

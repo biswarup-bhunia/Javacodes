@@ -1,0 +1,7 @@
+What are the different states of a thread, or what is thread lifecycle?
+
+A thread goes through various stages in its lifecycle. 
+For example, a thread is born, started, runs, and then dies. 
+The following diagram shows the complete life cycle of a thread. 
+New − 
+A new thread begins its life cycle in the new state.

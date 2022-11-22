@@ -1,0 +1,9 @@
+What do you mean by a Race condition, How to solve a race condition, give a proper
+example
+
+A simple example of a race condition is a light switch.
+ In some homes, there are multiple light switches connected
+to a common ceiling light. When these types of circuits are
+used, the switch position becomes irrelevant. If the light 
+is on, moving 
+either switch from its current position turns the light off.
